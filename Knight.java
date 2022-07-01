@@ -4,6 +4,7 @@ public class Knight {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
+        scanner.close();
         String[] splitWord = input.split("");
         String[][] arr = new String[8][8];
         String[] words = {"a", "b", "c", "d", "e", "f", "g", "h"};
